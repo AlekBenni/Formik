@@ -3,17 +3,17 @@ import YoutubeForm from './components/YoutubeForm';
 import './App.css'
 
 function App() {
-  const latest = 9
+  const latest = 11 01
   return (
     <>
-    <div className="App">
+      <div className="App">
 
-    <YoutubeForm />
+        <YoutubeForm />
 
+      </div>
+      <div className="alert alert-info mt-5" role="alert">
+        Ты на {latest} урок
     </div>
-    <div className="alert alert-info mt-5" role="alert">
-      Ты на {latest} уроке
-    </div>    
     </>
   )
 }
