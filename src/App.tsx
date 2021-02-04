@@ -3,7 +3,7 @@ import YoutubeForm from './components/YoutubeForm';
 import './App.css'
 
 function App() {
-  const latest = 11 01
+  const latest = 11
   return (
     <>
       <div className="App">
